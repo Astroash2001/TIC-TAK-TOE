@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2a9d8f;
+  text-align: center;
+}
+
+h1 {
+  color: #f4a261;
+  font-size: 7vh;
+  background-color: #264653;
+  border: solid 5px;
+  border-color: #00072d;
+}
+
+.container {
+  /* vh stand for viewport height it means jitna bhi screen dikh rha hai uska utna 
+    percent dikhega jaise 70vh means jitni bhi screen dikh rhi uske 70% me rahega ye 
+    div ya container jo bhi hai  */
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  /* vmin is basically 1% smaller then vh */
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1.5rem;
+  border: none;
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 1);
+
+  font-size: 11vmin;
+  color: #e9c46a;
+  background-color: #000814;
+}
+
+.reset-btn {
+  padding: 1%;
+  background-color: #264653;
+  color: #f4a261;
+  border-radius: 1rem;
+  font-size: 4rem;
+}
+
+.new-btn {
+  padding: 1%;
+  background-color: #264653;
+  color: #f4a261;
+  border-radius: 1rem;
+  font-size: 4rem;
+}
+
+.msg {
+  color: #344e41;
+  font-size: 8vmin;
+}
+
+.msg-container {
+  height: 30vmin;
+  size: 1rem;
+}
+
+.hide {
+  display: none;
+}
+
+.colorO {
+  color: #ccff33;
+}
+
+.colorX {
+  color: #ff0054;
+}
